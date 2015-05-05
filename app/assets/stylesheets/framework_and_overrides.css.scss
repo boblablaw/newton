@@ -2,6 +2,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$highlight_color: #2dbe60;
+
+body {
+  font-family: Oxygen, Helvetica, Arial, sans-serif;
+}
+
 // make all images responsive by default
 img {
   @extend .img-responsive;
@@ -11,6 +17,22 @@ img {
 .navbar-brand {
   font-size: inherit;
   }
+
+.user-links {
+  float: right;
+}
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.col-xs-12 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+
 
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
@@ -38,6 +60,8 @@ main {
   background-color: #eee;
   padding-bottom: 80px;
   width: 100%;
+  padding-left: 0;
+  padding-right: 0;
   margin-top: 51px; // accommodate the navbar
   }
 section {
